@@ -6,8 +6,8 @@ export default {
         const city = request.cf?.city;
         const region = request.cf?.region;
         const postalCode = request.cf?.postalCode;
-        const verifiedBot = request.cf?.botManagement.verifiedBot;
-        const botScore = request.cf?.botManagement.score;
+        const verifiedBot = request.cf?.botManagement?.verifiedBot;
+        const botScore = request.cf?.botManagement?.score;
 
         const html = `<!DOCTYPE html>
                         <html lang="en">
