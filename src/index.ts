@@ -6,8 +6,6 @@ export default {
         const city = request.cf?.city;
         const region = request.cf?.region;
         const postalCode = request.cf?.postalCode;
-        const verifiedBot = request.cf?.botManagement?.verifiedBot;
-        const botScore = request.cf?.botManagement?.score;
 
         const html = `<!DOCTYPE html>
                         <html lang="en">
@@ -93,27 +91,27 @@ export default {
                                     <div class="card-header">IP Info</div>
                                     <div class="data-row">
                                         <span class="data-label">Connecting IP:</span>
-                                        <span class="data-value">192.0.2.1</span>
+                                        <span class="data-value">${ip}</span>
                                     </div>
                                     <div class="data-row">
                                         <span class="data-label">City:</span>
-                                        <span class="data-value">Seattle, WA</span>
+                                        <span class="data-value">${city}</span>
                                     </div>
                                     <div class="data-row">
                                         <span class="data-label">Region:</span>
-                                        <span class="data-value">Pacific Northwest</span>
+                                        <span class="data-value">${region}</span>
                                     </div>
                                     <div class="data-row">
                                         <span class="data-label">Country:</span>
-                                        <span class="data-value">United States</span>
+                                        <span class="data-value">${country}</span>
                                     </div>
                                     <div class="data-row">
                                         <span class="data-label">Postal Code:</span>
-                                        <span class="data-value">98101</span>
+                                        <span class="data-value">${postalCode}</span>
                                     </div>
                                     <div class="data-row">
                                         <span class="data-label">Organization:</span>
-                                        <span class="data-value">Cloudflare, Inc.</span>
+                                        <span class="data-value">${asOrganization}</span>
                                     </div>
                                 </div>
                             </div>
