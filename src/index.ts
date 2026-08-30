@@ -11,7 +11,7 @@ export default {
                         <html lang="en">
                         <head>
                             <meta charset="UTF-8">
-                            <title>Kawaii Dashboard</title>
+                            <title>IP Info</title>
                             <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
                             <style>
                                 :root {
