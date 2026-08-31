@@ -49,7 +49,7 @@ export default {
                                 .card-header::after {
                                     content: '';
                                     display: block;
-                                    width: 46rem; height: 0.1rem;
+                                    width: 100%; height: 0.1rem;
                                     border-radius: 30px;
                                     background: linear-gradient(135deg, #FFB8E1, #F2A97A);
                                     margin: 1rem auto;
